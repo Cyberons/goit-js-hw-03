@@ -1,7 +1,6 @@
 function filterArray(numbers, value) {
   // Створить новий масив для зберігання чисел, які перевищують значення
   const filteredNumbers = [];
-
   // Перебирати вихідний масив чисел  
   for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] > value) {
